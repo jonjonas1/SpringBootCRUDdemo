@@ -26,7 +26,6 @@ public class Employee {
 		@Column(name="email")
 		private String email;
 		
-			
 		// define constructors
 		
 		public Employee() {
@@ -40,7 +39,6 @@ public class Employee {
 		}
 
 		// define getter/setter
-		
 		public int getId() {
 			return id;
 		}
@@ -74,7 +72,6 @@ public class Employee {
 		}
 
 		// define tostring
-
 		@Override
 		public String toString() {
 			return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
